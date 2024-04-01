@@ -1,0 +1,44 @@
+.header {
+    width: 80vw;
+    padding: 25px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.person-name {
+    display: flex;
+    align-items: center;
+}
+
+.person-name h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.person-name img {
+    width: 20px;
+    margin-left: 2px;
+}
+
+@media(max-width: 982px) {
+    .header {
+        width: 95vw;
+        padding: 25px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media(max-width: 480px) {
+    .header {
+        display: block;
+        padding-bottom: 20px;
+    }
+    .person-name {
+        display: flex;
+        padding-left: 2px;
+        padding-bottom: 15px;
+    }
+}

@@ -1,0 +1,36 @@
+.card-box{
+    display: grid;
+    padding: 0px 40px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+}
+.card{
+    margin-top: 10px;
+    width: 225px;
+    height: 130px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+
+}
+.card img{
+    width: 80px;
+    background-size: cover;
+    border-radius: 50%;
+}
+.card-content{
+    padding-left: 10px;
+}
+.card-content h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5e6389;
+}
+.card-content h2{
+    font-size: 18px;
+}
+.card-content h5{
+    font-size: 14px;
+    font-weight: 500;
+}

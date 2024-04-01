@@ -1,0 +1,162 @@
+.sidebar{    
+    width: 18vw;
+    height: 100vh;
+    padding: 25px;
+    background-color: #040440;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed; 
+    left: 0;
+}
+
+.dashboard{
+    display: flex;
+    align-items: center;
+    padding-bottom: 45px;
+}
+.dashboard h2{
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.option-list-dashboard{
+    display: flex;
+    background-color: #2d2d69;
+    border-radius: 8px;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 4px;
+    margin-bottom: 10px;
+    
+}
+
+.option-list-dashboard h2{    
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.option-list{
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 4px;
+    margin-bottom: 10px; 
+    color: #5e6389;   
+}
+
+.option-list h2{    
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.option-list:hover{
+    background-color: #2d2d69;
+    cursor: pointer;
+    color: white;
+}
+
+.manager-outerbox{
+    display: flex;
+    margin-top: auto;
+    height: 50px;
+    margin-bottom: 10px;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #2d2d69;
+}
+
+.manager-outerbox img {
+    background-size: cover;
+    border-radius: 50%;
+    width: 40px;
+    height: 35px;
+}
+
+.manager-innerbox h2{
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.manager-innerbox h3{
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #5e6389;
+}
+.arrow-icon{
+    margin-left: auto;
+}
+.down-arrow-icon{
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+@media(max-width: 1288px){
+    .manager-outerbox{
+        height: 60px;
+    }
+}
+@media(max-width: 982px){
+    .sidebar{    
+        width: 50px;
+        padding-top: 25px;
+        padding-left: 5px;
+    }
+    .dashboard{
+        padding-left: 5px;
+    }
+    .dashboard h2{
+        display: none;
+    }
+    
+    .option-list-dashboard{
+        background-color: #040440;
+        padding-left: 10px;        
+    }
+    
+    .option-list-dashboard h2{    
+        display: none;
+    }
+
+    .arrow-icon{
+        display: none;
+    }
+    
+    
+    .option-list h2{    
+        display: none;
+    }
+    
+    .option-list:hover{
+        background-color: #040440;
+        cursor: pointer;
+        color: white;
+    }
+    .down-arrow-icon{
+        display: none;
+    }
+    
+    .manager-outerbox{
+        background-color: #040440;
+        padding-left: 2px;
+    }    
+    .manager-innerbox h2{
+        display: none;
+    }
+    
+    .manager-innerbox h3{
+       display: none;
+    }
+    
+}
